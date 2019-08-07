@@ -1,0 +1,33 @@
+body{
+	background: linear-gradient(cyan, white);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between
+}
+.head {
+	color: dimgrey;
+    font-size: 30px;
+    
+}
+
+.head a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+p1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foot {
+    border-top: 1px;
+    border-top-color: black;
+    border-top-style: solid
+    
+    
+}
+
