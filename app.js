@@ -4,7 +4,8 @@ const getgeo = require("./geo")
 const weather =require("./weather")
 const hbs =require("hbs")
 const app =express()
-
+const port=process.env.PORT || 3000
+//cat ~/.ssh/id_rsa.pub to get SSH ID
 //Path setup
 
 viewspath=path.join(__dirname, "./templates/views")
@@ -74,6 +75,6 @@ app.get("/*",(req,res)=>{
 
 
 
-app.listen(3000, () => {
-    console.log('Server is up on port 3000.')
+app.listen(port, () => {
+    console.log('Server is up on port '+port)
 })
